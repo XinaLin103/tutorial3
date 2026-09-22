@@ -13,7 +13,7 @@ public class CalcTest {
     // ====== 修改新增的失败测试 ======
     @Test
     void testSubtraction() {
-        // 修改预期结果为8
-        assertEquals(8, c.subtract(4, 2));}
+        // 修改成4-2=2
+        assertEquals(2, c.subtract(4, 2));}
 }
 
