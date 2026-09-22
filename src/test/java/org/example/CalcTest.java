@@ -10,5 +10,10 @@ public class CalcTest {
     void testAddition() {
         assertEquals(4, c.add(2,2));
     }
-
+    // ====== 新增的失败测试 ======
+    @Test
+    void testSubtraction() {
+        // 断言 c.subtract(4, 2) 等于 2
+        assertEquals(2, c.subtract(4, 2));}
 }
+
